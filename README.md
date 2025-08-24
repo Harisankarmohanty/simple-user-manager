@@ -6,16 +6,16 @@ This is a simple web application for managing user data. It allows you to add, e
 
 ## Features
 
-  - [cite\_start]**View Users**: See a list of all users, including their ID, email, and username[cite: 7, 8, 9, 10].
-  - [cite\_start]**Add New Users**: A form is provided to create new user accounts with an email, username, and password[cite: 1, 2].
-  - [cite\_start]**Edit Users**: Update an existing user's username or password[cite: 6].
-  - [cite\_start]**Delete Users**: A form is available to delete a user by entering their password[cite: 5].
+  - **View Users**: See a list of all users, including their ID, email, and username.
+  - **Add New Users**: A form is provided to create new user accounts with an email, username, and password.
+  - **Edit Users**: Update an existing user's username or password.
+  - **Delete Users**: A form is available to delete a user by entering their password.
 
 ## Technologies Used
 
   - **Node.js**: The runtime environment for the application.
   - **Express.js**: A web framework for handling routes and requests.
-  - [cite\_start]**EJS (Embedded JavaScript Templating)**: Used to generate the HTML pages dynamically[cite: 1, 3, 5, 6, 7].
+  - **EJS (Embedded JavaScript Templating)**: Used to generate the HTML pages dynamically.
   - **CSS**: A separate `style.css` file is used to style the application's pages.
 
 ## Getting Started
@@ -55,11 +55,11 @@ This is a simple web application for managing user data. It allows you to add, e
 ## Project Structure
 
   - `views/`: Contains the EJS template files.
-      - [cite\_start]`home.ejs`: Displays the total number of users[cite: 3, 4].
-      - [cite\_start]`user.ejs`: Lists all users in a table and includes buttons to add, edit, or delete[cite: 7, 8, 9, 10, 11, 12, 13].
-      - [cite\_start]`new.ejs`: The form to add a new user[cite: 1, 2].
-      - [cite\_start]`edit.ejs`: The form to edit an existing user's details[cite: 6].
-      - [cite\_start]`delete.ejs`: The form to confirm the deletion of a user[cite: 5].
+      - `home.ejs`: Displays the total number of users.
+      - `user.ejs`: Lists all users in a table and includes buttons to add, edit, or delete.
+      - `new.ejs`: The form to add a new user.
+      - `edit.ejs`: The form to edit an existing user's details.
+      - `delete.ejs`: The form to confirm the deletion of a user.
   - `public/css/`: (You would create this directory) Contains the `style.css` file.
   - `index.js`: (Main server file) Handles all the routes and logic.
 
